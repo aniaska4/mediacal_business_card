@@ -1,0 +1,30 @@
+{
+  "name": "medical_business_card",
+  "version": "1.0.0",
+  "description": "My bedazzling Nuxt.js project",
+  "author": "aniaska4",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.8.0",
+    "cross-env": "^5.2.0",
+    "micro": "^9.3.3",
+    "micro-route": "^2.5.0",
+    "nuxt": "^2.0.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0",
+    "node-sass": "^4.13.1",
+    "nodemon": "^1.18.9",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^8.0.2"
+  }
+}
