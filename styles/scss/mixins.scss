@@ -1,0 +1,67 @@
+// mixixns
+@mixin contact_boxes {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: 500;
+    justify-content: center;
+    margin-bottom: 17px;
+
+    span {
+        width: 100px;
+    }
+
+    span:nth-child(1) {
+        text-align: end;
+        padding-right: 21px;
+        margin-right: 7px;
+    }
+}
+
+@mixin places($color, $top, $left) {
+    background-color: $color;
+    top: $top;
+    left: $left;
+}
+
+@mixin arrow($color) {
+    content: ' ';
+    left: 98px;
+    position: absolute;
+    top: 114px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid $color;
+}
+
+
+@mixin border($width, $style, $color) {
+    border: $width $style $color;
+}
+
+
+@mixin color-divs-small ($count, $color, $left) {
+    .small_column_#{$count} {
+        &:before {
+            background-color: $color;
+            position: absolute;
+            width: 3px;
+            height: 36px;
+            content: ' ';
+            left: $left;
+        }
+    }
+}
+
+@mixin color-divs-big ($count, $color, $top) {
+    .big_column_#{$count} {
+        &:before {
+            background-color: $color;
+            position: absolute;
+            width: 3px;
+            height: 36px;
+            content: ' ';
+            top: $top;
+        }
+    }
+}
