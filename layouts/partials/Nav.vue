@@ -5,7 +5,7 @@
                 .nav_img
                     //- img(src="@/images/logo.png" alt="logo")
                 .nav_description
-                    h1 Zespół Poradni Psychologiczno-Pedagogicznych Powiatu Warszawskiego Zachodniego </h1>
+                    h1 Zespół Poradni Rehabilitacyjnej Powiatu Warszawskiego Zachodniego
                     .nav_places
                         span(v-for="place in places") {{ place }}
             .main_nav
@@ -27,6 +27,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "styles/scss/variables.scss";
+@import "styles/scss/reset.scss";
 .nav_title {
     display: flex;
     flex-direction: row;
@@ -83,6 +84,7 @@ export default {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 100%;
     ul {
         display: flex;
         flex-direction: row;
