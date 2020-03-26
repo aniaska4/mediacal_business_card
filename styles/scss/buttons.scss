@@ -1,0 +1,65 @@
+@import 'styles/scss/variables.scss';
+
+// button firts section
+
+.myButton {
+    background-color: $lightYellowTwo;
+    border: 1px solid $lightYellowTwo;
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: white;
+}
+
+
+button {
+    margin-top: 40px;
+    border: none;
+
+}
+
+//    button news
+
+.buttonNews {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 14px;
+
+    .myButton {
+        padding: 12px 29px;
+    }
+}
+
+.newsButton {
+    margin-top: 12px;
+    border: none;
+    .myButton{
+        font-size: 11px
+    }
+}
+
+// slider buttons
+
+.prevButton {
+    left: 68px;
+    top: 228px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 100px;
+    color: $sliderButton;
+}
+
+.nextButton {
+    cursor: pointer;
+    position: absolute;
+    top: 228px;
+    left: 1370px;
+    font-size: 100px;
+    color: $sliderButton;
+}
