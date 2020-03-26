@@ -3,7 +3,7 @@
         .nav.container
             .nav_title
                 .nav_img
-                    //- img(src="@/images/logo.png" alt="logo")
+                    img(src="images/logo.png" alt="logo")
                 .nav_description
                     h1 Zespół Poradni Rehabilitacyjnej Powiatu Warszawskiego Zachodniego
                     .nav_places
