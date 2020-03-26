@@ -12,74 +12,66 @@
                     button
                         a(href="#" class="myButton") Sprawdz ofertę
 
-                .information_places
-                    .blonie_places.contact_informations
-                        h3 BŁONIE
+                .information_places 
+                    .contact_informations(v-for="place in places" :class="place.class" )
+                        h3 {{ place.name }}
                         .contact
                             span TELEFON |
-                            span (22) 777 11 22
+                            span {{ place.phone }}
                         .border
                         .open_hours
                             .days01
                                 span PN | ŚR | PT |
-                                span od 7:30 do 16:00
+                                span {{ place.hours_01 }}
                             .days02
                                 span WT |
-                                span od 7:30 do 19:00
+                                span {{ place.hours_02 }}
                             .days03
                                 span CZ |
-                                span od 7:30 do 18:00
-                    .ozarow_places.contact_informations
-                        h3 OŻARÓW MAZOWIECKI</h3>
-                        .contact
-                            span TELEFON |
-                            span (22) 777 11 22
-                        .border
-                        .open_hours
-                            .days01
-                                span PN | ŚR | PT |
-                                span od 7:30 do 16:00
-                            .days02
-                                span WT |
-                                span od 7:30 do 19:00
-                            .days03
-                                span CZ |
-                                span od 7:30 do 18:00
-                    .dziekanow_places.contact_informations
-                        h3 DZIEKANÓW LEŚNY
-                        .contact
-                            span TELEFON |
-                            span (22) 777 11 22
-                        .border
-                        .open_hours
-                            .days01
-                                span PN | ŚR | PT |
-                                span od 7:30 do 16:00
-                            .days02
-                                span WT |
-                                span od 7:30 do 19:00 
-                            .days03
-                                span CZ |
-                                span od 7:30 do 18:00
-                    .blizne_places.contact_informations
-                        h3 BLIZNE JASIŃSKIEGO
-                        .contact
-                            span TELEFON |
-                            span (22) 777 11 22
-                        .border
-                        .open_hours
-                            .days01
-                                span PN | ŚR | PT |
-                                span od 7:30 do 16:00
-                            .days02
-                                span WT |
-                                span od 7:30 do 19:00
-                            .days03
-                                span CZ |
-                                span od 7:30 do 18:00
+                                span {{ place.hours_03 }}
+                   
 </template>
 <script>
 export default {
+    component: "Information",
+    data() {
+        return{
+            places: [
+                {
+                class: "blonie_places",
+                name: "Błonie",
+                phone: "(22) 777 11 22",
+                hours_01: "od 7:30 do 16:00",
+                hours_02: "od 7:30 do 19:00",
+                hours_03: "d 7:30 do 18:00"
+                },
+                 {
+                class: "ozarow_places",
+                name: "OŻARÓW MAZOWIECKI",
+                phone: "(22) 777 11 22",
+                hours_01: "od 7:30 do 16:00",
+                hours_02: "od 7:30 do 19:00",
+                hours_03: "d 7:30 do 18:00"
+                },
+                 {
+                class: "dziekanow_places",
+                name: "DZIEKANÓW LEŚNY",
+                phone: "(22) 777 11 22",
+                hours_01: "od 7:30 do 16:00",
+                hours_02: "od 7:30 do 19:00",
+                hours_03: "d 7:30 do 18:00"
+                },
+                 {
+                class: "blizne_places",
+                name: "BLIZNE JASIŃSKIEGO",
+                phone: "(22) 777 11 22",
+                hours_01: "od 7:30 do 16:00",
+                hours_02: "od 7:30 do 19:00",
+                hours_03: "d 7:30 do 18:00"
+                }
+            ]
+        }
+    }
     
 }
 </script>
