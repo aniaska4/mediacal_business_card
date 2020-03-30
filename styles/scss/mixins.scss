@@ -65,3 +65,8 @@
         }
     }
 }
+
+@mixin locations_contact($color) {
+   color: $color;
+   border: 1px solid $color;
+}
