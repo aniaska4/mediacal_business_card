@@ -2,7 +2,7 @@
     section
         div.information
             .image_slider.img
-                img.image(src="images/02.jpg" alt="")
+                img.image(src="images/main_picture.jpg" alt="")
             .container.info
                 .information_txt
                     h2 Poradnia z pomysłem
