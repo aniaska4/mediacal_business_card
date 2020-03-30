@@ -8,7 +8,7 @@
                     iframe(src="https://www.google.com/maps/d/u/0/embed?mid=1xoQ9Ngii0AVcceKlxSrxieSb8yeh6-qU" )    
                 .location_title
                     h2 Terminy pracy zespołów orzekających
-                .location_adress                    
+                .location_adress
                     .location_adress_medical(v-for="adress in adresses" :class="adress.class")
                         .name
                             h4 {{ adress.name }}
@@ -52,7 +52,6 @@ export default {
 @import "styles/scss/variables.scss";
 @import "styles/scss/reset.scss";
 @import "styles/scss/mixins.scss";
-@import "styles/scss/buttons.scss";
 .location_title{
     display: flex;
     justify-content: center;
@@ -86,7 +85,7 @@ export default {
             justify-content: center;
             align-items: center;
             h4 {
-            font-size: 20px;
+            font-size: 18px;
             padding: 5px 5px;
             }
         }
