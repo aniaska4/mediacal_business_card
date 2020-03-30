@@ -1,4 +1,3 @@
-  
 <template>
   <div>
     <Nav />
@@ -7,6 +6,7 @@
     <Team />
     <Location />
     <Contact />
+    <Footer />
   </div>
 </template>
 <script>
@@ -16,6 +16,7 @@ import Actuality from './partials/Actuality'
 import Team from './partials/Team'
 import Location from './partials/Location'
 import Contact from './partials/Contact'
+import Footer from './partials/Footer'
 export default {
   components: {
     Nav,
@@ -23,7 +24,8 @@ export default {
     Actuality,
     Team,
     Location,
-    Contact
+    Contact,
+    Footer
   }
 }
 </script>
