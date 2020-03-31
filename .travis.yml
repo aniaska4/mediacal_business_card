@@ -4,12 +4,18 @@ node_js:
 
 cache: npm
 
+install:
+  - npm install
+  - npm run generate
+
 script: npm run build
 
 deploy:
  provider: pages
  skip_cleanup: true
  github_token: $GITHUB_TOKEN_Medical_business_card
+ target-branch: gh-pages
  local_dir: dist
  on:
    branch: master
+
