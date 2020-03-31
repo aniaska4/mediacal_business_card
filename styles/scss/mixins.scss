@@ -68,5 +68,10 @@
 
 @mixin locations_contact($color) {
    color: $color;
-   border: 1px solid $color;
+   border: 1px solid $color;   
 }
+
+@mixin locations_contact_hover($background, $color) {
+    color: $color;
+    background-color: $background;
+ }

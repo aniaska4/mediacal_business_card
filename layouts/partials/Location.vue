@@ -75,6 +75,7 @@ export default {
 .location_adress{
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
     .location_adress_medical{
         width: 70%;
         border: 1px solid black;
@@ -97,22 +98,39 @@ export default {
             font-size: 14px;
             padding: 5px 5px;
             }
-        }
-        
-        
+        } 
     }
+    
+}
     .blue{
-        @include locations_contact($colorBlue)
+        @include locations_contact($colorBlue)        
     }
+    .blue:hover{
+            @include locations_contact_hover($colorBlue, $colorWhite)
+        }
+
+
     .green{
         @include locations_contact($colorGreen)
     }
+    .green:hover{
+            @include locations_contact_hover($colorGreen, $colorWhite)
+        }
+
+
     .pink{
-        @include locations_contact($colorPink)
+        @include locations_contact($colorPink);
     }
+    .pink:hover{
+            @include locations_contact_hover($colorPink, $colorWhite)
+        }
+
+
     .lightBlue{
         @include locations_contact($colorLightBlue)
     }
-}
+    .lightBlue:hover{
+            @include locations_contact_hover($colorLightBlue, $colorWhite)
+        }
 
 </style>
