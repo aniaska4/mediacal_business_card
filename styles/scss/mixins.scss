@@ -6,6 +6,9 @@
     font-weight: 500;
     justify-content: center;
     margin-bottom: 17px;
+    @media #{$phone, $smallphone} {
+        margin-bottom: 0;
+      }
 
     span {
         width: 100px;
@@ -32,6 +35,9 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-top: 20px solid $color;
+    @media #{$phone, $smallphone} {
+        display: none;
+      }
 }
 
 
