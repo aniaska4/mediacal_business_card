@@ -111,7 +111,7 @@ export default {
       @media #{$phone, $smallphone} {
         top: -62px;
         padding-left: 10px;
-          height: 0;
+        height: 0;
       }
       h2 {
         margin: 18px 0;
@@ -143,7 +143,7 @@ export default {
       @media #{$phone, $smallphone} {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center
+        justify-content: center;
       }
       .contact_informations {
         height: 247px;
@@ -167,8 +167,8 @@ export default {
           font-size: $fontSizeNav;
           padding: 10px 0 35px 0;
           @media #{$phone, $smallphone} {
-          padding: 10px;
-        }
+            padding: 10px;
+          }
         }
 
         .contact {

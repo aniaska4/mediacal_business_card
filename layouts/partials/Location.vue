@@ -52,6 +52,7 @@ export default {
 @import "styles/scss/variables.scss";
 @import "styles/scss/reset.scss";
 @import "styles/scss/mixins.scss";
+@import "styles/scss/rwd.scss";
 .location_title{
     display: flex;
     justify-content: center;
@@ -76,6 +77,9 @@ export default {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    @media #{$phone, $smallphone} {
+        flex-wrap: wrap;
+    }
     .location_adress_medical{
         width: 70%;
         border: 1px solid black;

@@ -191,7 +191,7 @@ export default {
     .news_columns {
         display: flex;
         @media #{$phone, $smallphone} {
-          overflow-x: overlay;
+          overflow-x: auto;
         }
         .small_column {
             height: 122px;
