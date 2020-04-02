@@ -152,6 +152,11 @@ export default {
 @import "styles/scss/rwd.scss";
 .news {
     background-color: $colorCreme;
+    .container {
+         @media #{$phone, $smallphone} {
+          overflow-x: auto;
+        }
+    }
 
     .news_title {
         display: flex;
@@ -190,9 +195,7 @@ export default {
 
     .news_columns {
         display: flex;
-        @media #{$phone, $smallphone} {
-          overflow-x: auto;
-        }
+       
         .small_column {
             height: 122px;
             width: 268px;
