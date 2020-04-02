@@ -149,6 +149,7 @@ export default {
 @import "styles/scss/reset.scss";
 @import "styles/scss/mixins.scss";
 @import "styles/scss/buttons.scss";
+@import "styles/scss/rwd.scss";
 .news {
     background-color: $colorCreme;
 
@@ -189,7 +190,9 @@ export default {
 
     .news_columns {
         display: flex;
-
+        @media #{$phone, $smallphone} {
+          overflow-x: overlay;
+        }
         .small_column {
             height: 122px;
             width: 268px;
