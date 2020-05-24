@@ -5,7 +5,7 @@
                 .nav_img
                     img(src="images/logo.png" alt="logo")
                 .nav_description
-                    h1 Zespół Poradni Rehabilitacyjnej Powiatu Warszawskiego Zachodniego
+                    h1 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     .nav_places
                         span(v-for="place in places") {{ place }}
             .nav_places_mobile
@@ -19,7 +19,7 @@ export default {
     component: "Nav",
     data(){
         return{
-            places: ["Błonie", "Ożarów Mazowiecki", "Dziekanów Leśny", "Blizne Jasińskiego"],
+            places: ["Nazwa placówki", "Nazwa placówki", "Nazwa placówki", "Nazwa placówki"],
             navBar: ["Poradnia", "Aktualności", "Oferta", "Do pobrania", "Blog", "Kontakt" ]
         }
     }

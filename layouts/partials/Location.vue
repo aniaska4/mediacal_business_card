@@ -3,11 +3,11 @@
         .location
             .container
                 .location_title
-                    h2 Sprawdź jak do nas dojechać
+                    h2 Lorem ipsum dolor sit amet
                 .location_map
                     iframe(src="https://www.google.com/maps/d/u/0/embed?mid=1xoQ9Ngii0AVcceKlxSrxieSb8yeh6-qU" )    
                 .location_title
-                    h2 Terminy pracy zespołów orzekających
+                    h2 Lorem ipsum dolor sit amet
                 .location_adress
                     .location_adress_medical(v-for="adress in adresses" :class="adress.class")
                         .name
@@ -24,22 +24,22 @@ export default {
         return{
             adresses: [
                 {
-                    name: "Błonie",
+                    name: "Nazwa placówki",
                     hours: "Poniedziałki: 7:30 - 16:00",
                     class: "blue"
                 },
                 {
-                    name: "Ożarów Mazowiecki",
+                    name: "Nazwa placówki",
                     hours: "Poniedziałki: 9:30 - 18:00",
                     class: "green"
                 },
                 {
-                    name: "Dziakanów Leśny",
+                    name: "Nazwa placówki",
                     hours: "Poniedziałki: 10:30 - 17:00",
                     class: "pink"
                 },
                 {
-                    name: "Blizne Jasińskiego",
+                    name: "Nazwa placówki",
                     hours: "Poniedziałki: 8:30 - 16:00",
                     class: "lightBlue"
                 }

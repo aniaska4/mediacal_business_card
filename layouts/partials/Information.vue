@@ -42,7 +42,7 @@ export default {
       places: [
         {
           class: "blonie_places",
-          name: "BŁONIE",
+          name: "Nazwa placówki",
           phone: "(22) 777 11 22",
           hours_01: "od 7:30 do 16:00",
           hours_02: "od 7:30 do 19:00",
@@ -50,7 +50,7 @@ export default {
         },
         {
           class: "ozarow_places",
-          name: "OŻARÓW MAZOWIECKI",
+          name: "Nazwa placówki",
           phone: "(22) 777 11 22",
           hours_01: "od 7:30 do 16:00",
           hours_02: "od 7:30 do 19:00",
@@ -58,7 +58,7 @@ export default {
         },
         {
           class: "dziekanow_places",
-          name: "DZIEKANÓW LEŚNY",
+          name: "Nazwa placówki",
           phone: "(22) 777 11 22",
           hours_01: "od 7:30 do 16:00",
           hours_02: "od 7:30 do 19:00",
@@ -66,7 +66,7 @@ export default {
         },
         {
           class: "blizne_places",
-          name: "BLIZNE JASIŃSKIEGO",
+          name: "Nazwa placówki",
           phone: "(22) 777 11 22",
           hours_01: "od 7:30 do 16:00",
           hours_02: "od 7:30 do 19:00",

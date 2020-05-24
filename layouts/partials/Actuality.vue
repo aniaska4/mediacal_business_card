@@ -57,20 +57,20 @@ export default {
             column_1: [
                 {
                     data: "30 CZERWIEC 2019",
-                    info: "Sekretariat poradni w Błoniu ",
+                    info: "przykładowy text ",
                     hour: "czynny do 18:30",
                     class: "small_column small_column_1"                
                 },
                 {
                     data: "30 CZERWIEC 2019",
-                    info: "Sekretariat poradni w Błoniu ",
+                    info: "przykładowy text ",
                     hour: "czynny do 12:30",
                     class: "small_column small_column_2"                
                 },
                 {
                     src: "images/01.png",
                     data: "30 CZERWIEC 2019",
-                    info: "Sekretariat poradni w Błoniu ",
+                    info: "przykładowy text ",
                     hour: "czynny do 15:30",
                     class: "big_column big_column_1"                
                 },
@@ -78,20 +78,20 @@ export default {
             column_2: [
                 {
                     data: "30 CZERWIEC 2019",
-                    info: "Sekretariat poradni w Ożarowie ",
+                    info: "przykładowy text ",
                     hour: "czynny do 17:30",
                     class: "small_column small_column_3"                
                 },
                 {
                     src: "images/01.png",
                     data: "30 LIPCA 2019",
-                    info: "Sekretariat poradni w Ożarowie ",
+                    info: "przykładowy text ",
                     hour: "czynny do 14:30",
                     class: "big_column big_column_2"                
                 },
                 {
                     data: "30 WRZEŚNIA 2019",
-                    info: "Sekretariat poradni w Ożarowie ",
+                    info: "przykładowy text ",
                     hour: "czynny do 17:30",
                     class: "small_column small_column_4"                
                 },
@@ -99,20 +99,20 @@ export default {
             column_3: [
                 {
                     data: "30 CZERWIEC 2019",
-                    info: "Sekretariat poradni w Dziekanowie ",
+                    info: "przykładowy text ",
                     hour: "czynny do 15:30",
                     class: "small_column small_column_5"                
                 },
                 {
                     data: "30 CZERWIEC 2019",
-                    info: "Sekretariat poradni w Dziekanowie ",
+                    info: "przykładowy text ",
                     hour: "czynny do 16:30",
                     class: "small_column small_column_6"                
                 },
                 {
                     src: "images/01.png",
                     data: "30 CZERWIEC 2019",
-                    info: "Sekretariat poradni w Dziekanowie ",
+                    info: "przykładowy text ",
                     hour: "czynny do 14:30",
                     class: "big_column big_column_3"                
                 },
@@ -120,20 +120,20 @@ export default {
             column_4: [
                 {
                     data: "30 CZERWIEC 2019",
-                    info: "Sekretariat poradni w Blizne ",
+                    info: "przykładowy text ",
                     hour: "czynny do 15:30",
                     class: "small_column small_column_7"                
                 },
                 {
                     src: "images/01.png",
                     data: "30 CZERWIEC 2019",
-                    info: "Sekretariat poradni w Blizne ",
+                    info: "przykładowy text",
                     hour: "czynny do 16:30",
                     class: "big_column big_column_4"                
                 },
                 {
                     data: "30 CZERWIEC 2019",
-                    info: "Sekretariat poradni w Blizne ",
+                    info: "przykładowy text ",
                     hour: "czynny do 12:30",
                     class: "small_column small_column_8"                
                 },
